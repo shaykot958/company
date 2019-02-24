@@ -1,0 +1,51 @@
+/*Blobal colors */
+
+.pri{color:#5459b7;}
+.sec{color:#eaac2c;}
+
+.bg-pri{background-color:#5459b7;}
+.bg-sec{background-color:#eaac2c;}
+
+/*Button colors */
+
+.button:hover{
+	background: #eaac2c;
+}
+
+.button.bt-black:hover {
+    color: #5459b7;
+    background: #eaac2c;
+}
+
+/*Styles for banner area */
+
+.iq-over-blue-90::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background: rgba(84, 89, 183, 0.9);
+}
+
+/*Rounded border */
+
+.iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 {
+    border: 48px solid #5459b7!Important;
+    height: 500px;
+    width: 500px;
+}
+
+/* Great Screenshots section */
+
+.iq-over-blue-80::before {
+    background: rgba(84, 89, 183, 0.8);
+}
+
+/* meet the team section */
+
+.iq-team .iq-team-img:hover::before {
+   background: linear-gradient(to bottom, rgba(84, 89, 183, 0) 0%, rgba(84, 89, 183, 1) 100%);
+}

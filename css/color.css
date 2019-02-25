@@ -1,7 +1,7 @@
 /*Blobal colors */
 
-.pri{color:#5459b7;}
-.sec{color:#eaac2c;}
+.pri{color:#29166f;}
+.sec{color:#cd9933;}
 
 .bg-pri{background-color:#5459b7;}
 .bg-sec{background-color:#eaac2c;}
@@ -9,12 +9,12 @@
 /*Button colors */
 
 .button:hover{
-	background: #eaac2c;
+	background: #cd9933;
 }
 
 .button.bt-black:hover {
     color: #5459b7;
-    background: #eaac2c;
+    background: #cd9933;
 }
 
 /*Styles for banner area */
@@ -27,13 +27,13 @@
     top: 0;
     width: 100%;
     z-index: -1;
-    background: rgba(84, 89, 183, 0.9);
+    background: rgba(41, 22, 111, 0.9);
 }
 
 /*Rounded border */
 
 .iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 {
-    border: 48px solid #5459b7!Important;
+    border: 48px solid #29166f!Important;
     height: 500px;
     width: 500px;
 }
@@ -41,19 +41,19 @@
 /* Great Screenshots section */
 
 .iq-over-blue-80::before {
-    background: rgba(84, 89, 183, 0.8);
+    background: rgba(41, 22, 111, 0.9);
 }
 
 /* meet the team section */
 
 .iq-team .iq-team-img:hover::before {
-   background: linear-gradient(to bottom, rgba(84, 89, 183, 0) 0%, rgba(84, 89, 183, 1) 100%);
+   background: linear-gradient(to bottom, rgba(41, 22, 111, 0) 0%, rgba(41, 22, 111, 1) 100%);
 }
 
 /* Loading styles */
 
 .cube .sides * {
     box-sizing: border-box;
-    background-color: rgba(84, 89, 183, 0.8);
+    background-color: rgba(41, 22, 111, 0.8);
     border: 5px solid white;
 }

@@ -1,10 +1,10 @@
-/*Blobal colors */
+/*Global colors */
 
 .pri{color:#29166f;}
 .sec{color:#cd9933;}
 
-.bg-pri{background-color:#5459b7;}
-.bg-sec{background-color:#eaac2c;}
+.bg-pri{background-color:#29166f;}
+.bg-sec{background-color:#cd9933;}
 
 /*Button colors */
 
@@ -20,13 +20,6 @@
 /*Styles for banner area */
 
 .iq-over-blue-90::before {
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
     background: rgba(41, 22, 111, 0.9);
 }
 
@@ -34,8 +27,6 @@
 
 .iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 {
     border: 48px solid #29166f!Important;
-    height: 500px;
-    width: 500px;
 }
 
 /* Great Screenshots section */
@@ -53,7 +44,5 @@
 /* Loading styles */
 
 .cube .sides * {
-    box-sizing: border-box;
     background-color: rgba(41, 22, 111, 0.8);
-    border: 5px solid white;
 }

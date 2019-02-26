@@ -46,3 +46,9 @@
 .cube .sides * {
     background-color: rgba(41, 22, 111, 0.8);
 }
+
+/*Dropdown menu */
+
+.dropdown-menu.show {
+    padding: 20px;
+}

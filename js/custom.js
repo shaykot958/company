@@ -63,11 +63,12 @@ $(document).ready(function() {
 
     /*------------------------
     Hide Menu
-    --------------------------*/
+    --------------------------
     $(".navbar a").on("click", function(event) {
         $(".navbar-collapse").collapse('hide');
     });
 
+	*/
 
 
     /*------------------------

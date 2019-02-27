@@ -50,11 +50,13 @@ jQuery(function ($) {
             event.preventDefault();
         });
     });
-    // closes the responsive menu on menu item click
+    // closes the responsive menu on menu item click /
+	
+	/*
     $(".navbar-nav li a").on("click", function(event) {
         if (!$(this).parent().hasClass('dropdown'))
             $(".navbar-collapse").collapse('hide');
-    });
+    }); */
 
     //nav menu active color
     $('.header-nav li').on("click", function(e){

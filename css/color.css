@@ -49,7 +49,7 @@
 
 /*Dropdown menu */
 
-.dropdown-menu.show {
+.dropdown-menu{
     padding: 20px;
 }
 
@@ -61,4 +61,38 @@
 
 .header-white.menu-sticky{
 	height:80px;
+}
+
+/* Dropdown menu responsive issue */
+
+.dropdown-toggle::after {
+    margin-left: 15px;
+}
+
+@media(max-width:991px){
+	.dropdown-menu {
+		border: 0px solid rgba(0,0,0,.15);
+		margin-left: 25px;
+	}
+}
+
+.navbar-light .navbar-toggler span {
+    color: #29166f;
+}
+
+.navbar {
+    border: 0px solid #281483;
+    background-color: #fff;
+}
+
+.navbar .navbar-collapse {
+    border-top: 0px solid #281483;
+}
+
+
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .modal-header::after, .modal-header::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
+
+    display: none;
+    content: " ";
+
 }

@@ -96,3 +96,39 @@
     content: " ";
 
 }
+
+/*
+.navbar-brand {
+    margin-left: 7%;
+}
+
+.navbar-toggler {
+    margin-right: 7%;
+}
+
+*/
+
+#main-header {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+@media(max-width:991px){
+	#main-header {
+		padding-left: 0%;
+		padding-right: 0%;
+		
+	}
+	
+	.navbar-brand {
+		margin-left: 7%;
+	}
+	
+	.navbar-toggler {
+		margin-right: 7%;
+	}
+	
+	.navbar-nav.mr-auto.w-100.justify-content-end {
+		padding: 20px 7%;
+	}
+}
